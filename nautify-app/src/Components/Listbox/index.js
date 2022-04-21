@@ -4,7 +4,7 @@ const Listbox = (props) => {
     const clicked = (e) => {
         e.preventDefault();
         props.clicked(e.target.id);
-    }
+    };
 
     return (
         <div className="col-sm-6 px-0">
@@ -22,6 +22,6 @@ const Listbox = (props) => {
             </div>
         </div>
     );
-}
+};
 
 export default Listbox;

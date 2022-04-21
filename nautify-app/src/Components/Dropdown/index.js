@@ -3,7 +3,7 @@ import React from "react";
 const Dropwdown = (props) => {
     const dropdownChanged = e => {
         props.changed(e.target.value);
-    } 
+    } ;
 
     return (
         <div className="col-sm-6 form-group row px-0">     
@@ -14,6 +14,6 @@ const Dropwdown = (props) => {
             </select>            
         </div>
     );
-}
+};
 
 export default Dropwdown;

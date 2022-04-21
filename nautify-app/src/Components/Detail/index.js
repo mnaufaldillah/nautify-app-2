@@ -21,6 +21,6 @@ const Detail = ({album, artists, name}) => {
             </div>
         </div>
     );
-}
+};
 
-export default Detail
+export default Detail;
